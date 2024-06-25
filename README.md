@@ -1,4 +1,5 @@
 1. Under testngsuite package two testng.xml has been created-> Api.xml for API automation and web.xml for UI Automation
+   
 UI Automation Flow-
 1. Execution flow begins from src->test->java->UIAutomationTest.java in which defined @BeforeClass to initialize the ExtentReport object.
 2. Then @Test contains basic execution of the test case and the assertions and screenshot on assertion success and failure
